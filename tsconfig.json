@@ -12,7 +12,8 @@
     "lib": ["esnext", "dom"],
     "baseUrl": ".",
     "rootDir": "./src",
-    "paths": { "~/*": ["./src/*"] }
+    "paths": { "~/*": ["./src/*"] },
+    "types": ["vite-plugin-pwa"]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
