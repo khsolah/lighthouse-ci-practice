@@ -6,7 +6,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "husky install",
-    "https-preview": "yarn build && serve dist"
+    "https-preview": "yarn build && serve dist",
+    "lh": "lighthouse https://localhost --view --configPath lh.config.json --output html --outputPath .lh/lh.report.html",
+    "lhci": "npx lhci autorun"
   },
   "dependencies": {
     "vue": "^3.2.25"
