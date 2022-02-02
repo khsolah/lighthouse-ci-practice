@@ -5,6 +5,15 @@ import WindiCSS from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        chunkFileNames: `[name].js`,
+        entryFileNames: `[name].js`,
+        assetFileNames: `[name].[ext]`
+      }
+    }
+  },
   plugins: [
     vue(),
     WindiCSS({
