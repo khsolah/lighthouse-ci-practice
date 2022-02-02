@@ -11,19 +11,42 @@ const count = ref(0)
 
   <p>
     Recommended IDE setup:
-    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
+    <a
+      href="https://code.visualstudio.com/"
+      target="_blank"
+      rel="noreferrer"
+      class="text-[#0d7e4c]"
+      >VSCode</a
+    >
     +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
+    <a
+      href="https://github.com/johnsoncodehk/volar"
+      target="_blank"
+      rel="noreferrer"
+      class="text-[#0d7e4c]"
+      >Volar</a
+    >
   </p>
 
   <p>See <code>README.md</code> for more information.</p>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
+    <a
+      href="https://vitejs.dev/guide/features.html"
+      target="_blank"
+      rel="noreferrer"
+      class="text-[#0d7e4c]"
+    >
       Vite Docs
     </a>
     |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
+    <a
+      href="https://v3.vuejs.org/"
+      target="_blank"
+      rel="noreferrer"
+      class="text-[#0d7e4c]"
+      >Vue 3 Docs</a
+    >
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
@@ -34,10 +57,6 @@ const count = ref(0)
 </template>
 
 <style scoped>
-a {
-  color: #42b983;
-}
-
 label {
   margin: 0 0.5em;
   font-weight: bold;
