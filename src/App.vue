@@ -8,7 +8,14 @@ import ReloadPrompt from './components/sw/ReloadPrompt.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" class="w-50 h-50 m-auto" />
+  <img
+    src="./assets/logo.png"
+    srcset="./assets/logo.png 1x"
+    alt="Vue logo"
+    width="200px"
+    height="200px"
+    class="w-50 h-50 m-auto"
+  />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <ReloadPrompt />
 </template>
