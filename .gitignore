@@ -9,3 +9,8 @@ dist-ssr
 
 # env
 .env*
+
+# lighthouse reports
+.lh
+.lhci
+.lighthouseci
